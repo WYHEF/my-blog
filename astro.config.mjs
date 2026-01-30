@@ -4,8 +4,8 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://your-domain.com', // 替换为你的域名
-  integrations: [mdx(), sitemap()],
+  site: 'https://my-blog-wyhef.vercel.app',
+  integrations: [mdx() /*, sitemap()*/],
   markdown: {
     shikiConfig: {
       // 代码高亮主题
