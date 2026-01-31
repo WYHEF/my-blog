@@ -171,6 +171,7 @@ export default defineConfig({
 ```
 
 支持自动暗色模式，通过 `prefers-color-scheme` 媒体查询实现。
+支持暗色模式和亮色模式手动切换。
 
 ## 📦 部署
 
